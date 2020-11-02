@@ -6,7 +6,6 @@
     "node": "12.x"
   },
   "private": true,
-  "homepage": "http://localhost:3000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
