@@ -28,7 +28,7 @@ export default class App extends React.Component {
             }}>
                 <SnowingBackground>
                     {this.state.loggedIn ?
-                        <CalendarPage/>
+                        <CalendarPage className={'calendarPage d-flex align-items-center justify-content-center'}/>
                         :
                         <LoginForm history={this.props.history}
                                    className={'loginPage d-flex align-items-center justify-content-center'}/>
