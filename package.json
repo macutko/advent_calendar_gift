@@ -1,6 +1,10 @@
 {
   "name": "mimi",
-  "version": "0.1.0",
+  "description": "an advent gift",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
   "private": true,
   "homepage": "http://localhost:3000",
   "dependencies": {
