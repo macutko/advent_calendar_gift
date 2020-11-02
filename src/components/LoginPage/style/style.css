@@ -1,0 +1,9 @@
+.loginPage {
+    min-height: 80vh;
+    background-size: contain;
+}
+
+.bottomPic {
+    min-height: 20vh;
+    min-width: 100vw;
+}

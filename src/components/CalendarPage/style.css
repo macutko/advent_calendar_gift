@@ -1,0 +1,7 @@
+.calendarPage{
+    min-height: 100vh;
+}
+.circle {
+    border-radius: 50%;
+    background-color: white;
+}
