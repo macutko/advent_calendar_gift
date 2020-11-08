@@ -16,3 +16,29 @@
     font-weight: 700;
     color: black;
 }
+.fontStyle{
+    font-family: monospace;
+}
+.motivationBox{
+    font-size: 15px;
+}
+.motivationBox h2{
+    text-align: center;
+}
+.jokeBox{
+    /*margin-top: 15px;*/
+}
+.jokeBox h2{
+    text-align: center;
+}
+.quoteBox{
+    text-align: justify;
+}
+.authorBox{
+    text-align: right;
+    padding-right: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+.videoBox{
+}
