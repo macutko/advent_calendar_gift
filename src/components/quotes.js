@@ -3,13 +3,13 @@ const quotes = [
         "day": 1,
         "data": {
             "motivation": {
-                "type": "text",
-                "data": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres. Love never fails. But where there are prophecies, they will cease; where there are tongues, they will be stilled; where there is knowledge, it will pass away.",
-                "author": "1 Corinthians 13:4-8"
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=sUzadoEVQBM&ab_channel=LondonReal",
+                "author": ""
             },
             "joke": {
-                "type": "link",
-                "data": "https://www.youtube.com/watch?v=ap9Zu_HXz-M&ab_channel=DryBarComedy"
+                "type": "text",
+                "data": "\"Jeane, pohár vody, prosím.\" \"Nech sa páči, pane.\" \"Ďakujem, Jeane. Jeane, ďalší pohár vody, prosím.\" \"Nech sa páči, pane.\" \"Ďakujem, Jeane. Jeane, ešte jeden pohár vody, prosím.\" \"Nech sa páči, pane.\" \"Ďakujem, Jeane. Jeane?\" \"Áno, pane.\" \"Zavolaj hasičov. Toto sami neuhasíme.\"\n"
             }
         }
     },
@@ -18,12 +18,12 @@ const quotes = [
         "data": {
             "motivation": {
                 "type": "text",
-                "data": "Trust in the LORD with all your heart and lean not on your own understanding; 6 in all your ways submit to him, and he will make your paths straight",
-                "author": "Proverbs 3:5-6"
+                "data": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres. Love never fails. But where there are prophecies, they will cease; where there are tongues, they will be stilled; where there is knowledge, it will pass away.",
+                "author": "1 Corinthians 13:4-8"
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=ap9Zu_HXz-M&ab_channel=DryBarComedy"
             }
         }
     },
@@ -50,8 +50,8 @@ const quotes = [
                 "author": "Mark Twain"
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=Tu_m5diSk4k&ab_channel=GabrielIglesias"
             }
         }
     },
@@ -64,8 +64,8 @@ const quotes = [
                 "author": "Michael Jordan"
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=MjXChWKKQUw&ab_channel=GabrielIglesias"
             }
         }
     },
@@ -78,8 +78,8 @@ const quotes = [
                 "author": "Proverbs 27:19"
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=u3CCo3X5yVA&ab_channel=DryBarComedy"
             }
         }
     },
@@ -92,8 +92,8 @@ const quotes = [
                 "author": "Chinese Proverb"
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=pH1Zaef7XXA&ab_channel=JeffDunham"
             }
         }
     },
@@ -107,8 +107,8 @@ const quotes = [
                 "author": "William W. Purkey"
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=1G9hHhqHm5s&ab_channel=DryBarComedy"
             }
         }
     },
@@ -121,8 +121,8 @@ const quotes = [
                 "author": "Paulo Coelho"
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=hFBNXY9_9lQ&ab_channel=DryBarComedy"
             }
         }
     },
@@ -135,8 +135,8 @@ const quotes = [
                 "author": " Bruce Garrabrandt"
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=BaDG4VD7S8A&ab_channel=JeffDunham"
             }
         }
     },
@@ -149,8 +149,8 @@ const quotes = [
                 "author": "1 Peter 4:8"
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=GBvfiCdk-jc&ab_channel=JeffDunham"
             }
         }
     },
@@ -163,8 +163,9 @@ const quotes = [
                 "author": ""
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "text",
+                "data": "Pride chlapik do obchodu a vravi: \" \n Poprosim vas, kilo hrozna a kilo ribezli \" \n Predavac na neho zmatene pozera a vravi \n \" Ale my nie sme " +
+                    "zelovoc ale vinoteka\" \n \" Okay, snaha bola, tak dve flasky poprosim \""
             }
         }
     },
@@ -177,22 +178,23 @@ const quotes = [
                 "author": ""
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "text",
+                "data": "Príde blondínka do obchodu a pýta sa predavača :,, Čo je to oranžové? ... Pomaranče. Tak si prosím kilo, každý zabaliť zvlášť.\" Obzrie sa a znova sa pýta :,,Čo je to žlté? ...Citróny. Tak si prosím kilo.Každý zabaliť zvlášť.\" Pozrie sa hore a hovorí :,,Čo je to čierne? ...Ser nato, to je mak! "
             }
         }
     },
     {
+
         "day": 14,
         "data": {
             "motivation": {
-                "type": "link",
-                "data": "https://www.youtube.com/watch?v=sUzadoEVQBM&ab_channel=LondonReal",
-                "author": ""
+                "type": "text",
+                "data": "Trust in the LORD with all your heart and lean not on your own understanding; 6 in all your ways submit to him, and he will make your paths straight",
+                "author": "Proverbs 3:5-6"
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=BhfBRq7v3IA&ab_channel=DryBarComedy"
             }
         }
     },
@@ -205,8 +207,8 @@ const quotes = [
                 "author": ""
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "text",
+                "data": "Ide Jožo na starom žuguli a má dosť vypité, v tom ho zastavuje policajt, Jožo si tak v hlave hovorí,,no Jožo čo teraz urobíš, máš vypité, papiere ti zoberú no čo spravíš, no čo spravím zrazím ho\" bác zrazí ho hodí do kufra a ide dalej, čo čert nechcel o 500 metrov druhý policajt, Jožo si znovu hovorí ,,no čo správíš Jožo vypité máš, policajta v kufri zoberú ti papiere no čo spravíš Jožo, no čo spravím, zrazím ho\" bác zrazí ho, hodí do kufra a ide dalej. O kúsok dalej sváko na oračine krumple sadí, tak sa ho opyta ,,sváko zakopete mi tu jedného policajta\" a svako ,,zakopem čo by som nezakopal\" tak jedného policajta mu hodí na oráčinu a druhého len tak nakraj ku kríkom, tak sváko vykope jamu, hodí tam policajta, zakope ho zasadí krumple a ked sa otočí na kraji pri kríku leží policajt ,,a čo som ťa do tej jami nehodil alebo si sa vyhrabal alebo čo. tak vykope druhú jamu hodí do nej druhého policajta nasadí krumple a v tom ho niekto chytí za plece sváko sa otočí a tam policajt ,,sváko nevideli ste tu takých dvoch policajtov\" sváko chyti motiku, jednu mu napriahne do hlavy a hovorí ,,a čo ťa ja dneska nezakopem\"\n"
             }
         }
     },
@@ -219,8 +221,9 @@ const quotes = [
                 "author": ""
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "text",
+                "data": "Zajac prišiel ku zmrzlinovému stánku a pýta sa ujo máte mrkvičkovu zmrzlinu? Nie nemám. Zajac príde na druhý deň a pýta sa ujo máte mrkvičkovu zmrzlinu? Nie nemám. Zajac príde na tretí deň a pýta sa ujo máte mrkvičkovú zmrzlinu?\n" +
+                    "Nie nemám. A ujo si povie a urobím tomu zajacovi mrkvičkovú zmrzlinu. A zajac príde na štvrtý deň a pýta sa ujo máte mrkvičkovú zmrzlinu? Áno mám. Fuj ale je hnusná čo?"
             }
         }
     },
@@ -233,8 +236,8 @@ const quotes = [
                 "author": "Jeremiah 29:11"
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=RdvecFyCnYU&ab_channel=DryBarComedy"
             }
         }
     },
@@ -243,12 +246,13 @@ const quotes = [
         "data": {
             "motivation": {
                 "type": "link",
-                "data": "https://www.youtube.com/watch?v=o7w5r5PfBKo&list=WL&index=22&ab_channel=FightMediocrity",
+                "data": "https://www.youtube.com/watch?v=01ZCnCXpG4A&list=WL&index=24&ab_channel=FearlessSoul",
                 "author": ""
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "text",
+                "data": " -Čo myslíte, je zviera na reklame čokolády Milka krava alebo býk?\n" +
+                    "- Vôl. Nikto iný by sa nedal nafarbiť na fialovo."
             }
         }
     },
@@ -256,13 +260,14 @@ const quotes = [
         "day": 19,
         "data": {
             "motivation": {
-                "type": "",
-                "data": "",
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=ZidGozDhOjg&list=WL&index=30&ab_channel=TEDxTalks",
                 "author": ""
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "text",
+                "data": "Viete čo je najväčšie sebavedomie?\n" +
+                    "Keď ide dážďovka na ryby."
             }
         }
     },
@@ -275,8 +280,8 @@ const quotes = [
                 "author": "Matthew 6:25-34"
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=q_22tPwd0dE&ab_channel=DryBarComedy"
             }
         }
     },
@@ -284,13 +289,14 @@ const quotes = [
         "day": 21,
         "data": {
             "motivation": {
-                "type": "",
-                "data": "",
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=ZjI7vqizTRc&list=WL&index=18&ab_channel=AfterSkool",
                 "author": ""
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "text",
+                "data": "Je to červené a kazí to zuby. Čo to je?\n" +
+                    "Červená tehla."
             }
         }
     },
@@ -298,13 +304,14 @@ const quotes = [
         "day": 22,
         "data": {
             "motivation": {
-                "type": "",
-                "data": "",
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=-iqiRCQWRmA&list=WL&index=16&ab_channel=FightMediocrity",
                 "author": ""
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "text",
+                "data": "Čo je to dážďovka?\n" +
+                    "Je to motorizovaný makarón."
             }
         }
     },
@@ -312,13 +319,19 @@ const quotes = [
         "day": 23,
         "data": {
             "motivation": {
-                "type": "",
-                "data": "",
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=o7w5r5PfBKo&list=WL&index=15&ab_channel=FightMediocrity",
                 "author": ""
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "text",
+                "data": "Kral ma 3 dcery ruzenku hrustenku a tehlenku\n" +
+                    "\n" +
+                    "Ruzenka dojde za oteckom a pyta sa : Oci preco som ruzenka. Lebo ked si bola mala padla ti do kocika ruza\n" +
+                    "\n" +
+                    "Hrustenka dojde za oteckom a pyta sa : Oci preco som hrustenka. Lebo ked si bola mala padla ti do kocika hruska\n" +
+                    "\n" +
+                    "Pride tehlenka a vravi: uuuuuuuuuuea uuuuuua uuuuuu eeeeeee?\n"
             }
         }
     },
@@ -331,8 +344,8 @@ const quotes = [
                 "author": "Genesis 1:27-28"
             },
             "joke": {
-                "type": "",
-                "data": ""
+                "type": "link",
+                "data": "https://www.youtube.com/watch?v=lOSQvNDIGaU&t=311s&ab_channel=JustForLaughs"
             }
         }
     },
@@ -342,3 +355,7 @@ const quotes = [
 
 
 export default quotes
+
+//jokes:
+//https://www.youtube.com/watch?v=2QumSLdE2c4&ab_channel=JeffDunham
+//https://www.youtube.com/watch?v=6XrTj7g714g&ab_channel=ErosRyanOfficial
