@@ -9,6 +9,10 @@
     background: url("snowflake.png") no-repeat center center;
     background-size: contain;
 }
+.circle_red{
+    background: url("snowflake_red.png") no-repeat center center;
+    background-size: contain;
+}
 
 .number {
     text-align: center;

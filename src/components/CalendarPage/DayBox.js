@@ -37,7 +37,7 @@ export default class DayBox extends React.Component {
 
     render() {
         return (
-            <div className={`circle d-flex align-items-center justify-content-center`} onClick={this.toggleModal}
+            <div className={`circle d-flex align-items-center justify-content-center ${this.props.day === 13 ? 'circle_red':''}` } onClick={this.toggleModal}
                  style={{opacity: this.state.opacity}}>
                 <div className={"number"}>
                     {this.props.day}
