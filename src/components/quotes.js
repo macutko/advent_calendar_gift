@@ -159,7 +159,7 @@ const quotes = [
         "data": {
             "motivation": {
                 "type": "link",
-                "data": "https://www.youtube.com/watch?v=e9dZQelULDk&ab_channel=SteveCutts",
+                "data": "https://www.youtube.com/watch?v=52lZmIafep4&list=WL&index=29&t=11s&ab_channel=TEDxTalks",
                 "author": ""
             },
             "joke": {
